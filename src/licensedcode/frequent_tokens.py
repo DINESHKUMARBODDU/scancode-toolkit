@@ -10050,7 +10050,7 @@ pas
 texte
 '''
 
-
+import itertools
 def global_tokens_by_ranks():
     return itertools.chain.from_iterable(
     words.lower().split()  for words in [
